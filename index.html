@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamster Love</title>
+    <style>
+        body {
+            background-color: #fce4ec;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .popup {
+            cursor: pointer;
+            font-size: 32px;
+            color: pink;
+            font-weight: bold;
+        }
+        #messageBox {
+            display: none;
+            color: pink;
+            font-size: 20px;
+            font-family: 'Arial';
+            text-align: center;
+            padding: 20px;
+            border: 2px solid pink;
+            border-radius: 10px;
+            background-color: #fff;
+            width: 80%;
+            margin: auto;
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="popup">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Hamster_in_human_hand.jpg/800px-Hamster_in_human_hand.jpg" alt="Cute Hamster" style="width: 200px; border-radius: 50%;"/>
+        <p>Click me!</p>
+    </div>
+
+    <div id="messageBox">
+        I love you meri jaan, today is 21st April which means almost 1 year 3 months.. I can't believe that we have crossed this mark together.. being with you through all of this reminds me how grateful I am.. Ever since I have been with you I have realized the value of love.. You are the best thing that has ever happened to me ever.. I have made mistakes, hurt you a lot, and I know it, I was so stupid for doing so, but I am improving on myself.. I love you meri jaan bahot zyadaaa.. I am going to give you a glimpse of this website that I made on Sunday and then I’ll show it to you once you get into college when I give you your college goodies.. I love bahot bahot zyada meri jaan.. You are the bestttt..
+    </div>
+
+    <script>
+        const popup = document.querySelector('.popup');
+        
+        popup.addEventListener('click', function() {
+            document.getElementById('messageBox').style.display = 'block';
+        });
+    </script>
+
+</body>
+</html>
